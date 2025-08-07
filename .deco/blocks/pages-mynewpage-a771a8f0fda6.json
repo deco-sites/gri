@@ -1,1 +1,36 @@
-{"name":"My New Page","path":"/example-path","sections":[{"__resolveType":"site/sections/Hero.tsx"},{"__resolveType":"site/sections/SimpleTextList.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "My New Page",
+  "path": "/example-path",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Hero.tsx"
+    },
+    {
+      "__resolveType": "site/sections/SimpleTextList.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Faq.tsx",
+        "title": "sghfdghfgdhfdgh",
+        "description": "dfghdfgh",
+        "cta": {
+          "outline": true,
+          "href": "#sfdfh",
+          "text": "fgh"
+        },
+        "questions": [
+          {
+            "title": "gvdhnm",
+            "answer": "<p>kn</p>"
+          },
+          {
+            "title": "fghnt",
+            "answer": "<p>hfu,ghjlkghgjkl</p><p><strong>dfghgfdh</strong></p><p>dfghfghvcjgfkh </p>"
+          }
+        ]
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

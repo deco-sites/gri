@@ -1,42 +1,123 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
+  "name": "Home",
+  "path": "/",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
       {
-        "__resolveType": "Header"
+        "value": [
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "<p>Click here to tweak this text however you want.</p>",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+          },
+          {
+            "__resolveType": "site/sections/Logos.tsx",
+            "logos": [
+              {
+                "src": "https://assets.decocache.com/gri/c140ad6f-0932-40e0-9a93-deecce79fc8c/0013600000PdkvxAAB_Marketing_Edited_Logo.jpg",
+                "altText": "xcv "
+              },
+              {
+                "src": "https://assets.decocache.com/gri/586e0430-a2c1-47cc-9a6b-e04343c5bc4d/frgesda.jpeg",
+                "altText": " nhjm"
+              },
+              {
+                "src": "https://assets.decocache.com/gri/9a48eab4-8bae-4d81-8744-b13fef520cfa/0013600000xoHCvAAM_Marketing_Edited_Logo.jpg"
+              }
+            ],
+            "title": "ghcmhjf"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx"
+          },
+          {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "placement": "right"
+          },
+          {
+            "__resolveType": "site/sections/BlogPosts.tsx"
+          },
+          {
+            "__resolveType": "site/sections/Testimonials.tsx",
+            "arrows": true
+          },
+          {
+            "__resolveType": "site/sections/Faq.tsx"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/pathname.ts",
+          "case": {
+            "type": "Equals",
+            "pathname": "/en"
+          }
+        }
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+        "value": [
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "<p>Click here to tweak this text however you want.</p>",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "site/sections/Logos.tsx",
+            "logos": [
+              {
+                "src": "https://assets.decocache.com/gri/c140ad6f-0932-40e0-9a93-deecce79fc8c/0013600000PdkvxAAB_Marketing_Edited_Logo.jpg",
+                "altText": "xcv "
+              },
+              {
+                "src": "https://assets.decocache.com/gri/586e0430-a2c1-47cc-9a6b-e04343c5bc4d/frgesda.jpeg",
+                "altText": " nhjm"
+              },
+              {
+                "src": "https://assets.decocache.com/gri/9a48eab4-8bae-4d81-8744-b13fef520cfa/0013600000xoHCvAAM_Marketing_Edited_Logo.jpg"
+              }
+            ],
+            "title": "ghcmhjf"
+          },
+          {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx"
+          },
+          {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "placement": "right"
+          },
+          {
+            "__resolveType": "site/sections/BlogPosts.tsx"
+          },
+          {
+            "__resolveType": "site/sections/Testimonials.tsx",
+            "arrows": true
+          },
+          {
+            "__resolveType": "site/sections/Faq.tsx"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
-    }
+    ]
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
