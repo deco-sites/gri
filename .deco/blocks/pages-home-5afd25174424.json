@@ -56,7 +56,7 @@
         "rule": {
           "__resolveType": "website/matchers/pathname.ts",
           "case": {
-            "type": "Equals",
+            "type": "Includes",
             "pathname": "/en"
           }
         }
