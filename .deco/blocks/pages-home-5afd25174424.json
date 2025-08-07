@@ -7,6 +7,9 @@
       {
         "value": [
           {
+            "__resolveType": "Header"
+          },
+          {
             "__resolveType": "site/sections/Hero.tsx",
             "title": "<p>Click here to tweak this text however you want.</p>",
             "cta": [],
@@ -28,9 +31,6 @@
               }
             ],
             "title": "ghcmhjf"
-          },
-          {
-            "__resolveType": "Header"
           },
           {
             "__resolveType": "site/sections/ImageWithParagraph.tsx"
